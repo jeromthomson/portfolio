@@ -22,18 +22,12 @@ header{
 header a {
     float: left;
     text-align: center;
-}
-header a.name {
-    margin-left: 5px;
-    font-size: 10vh;
+    color: green;
     text-decoration: none;
     font-style: italic;
-    color: green;
-
 }
-#header1 {
-    margin-bottom: 0%;
-    margin-top: 3vw;
+header a.name {
+    font-size: 10vh; 
 }
 .myimage {
     margin-left: 0vw;
