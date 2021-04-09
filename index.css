@@ -2,11 +2,45 @@ body {
     background-color: black;
     color: white;
 }
+* {
+    box-sizing: border-box;
+}
 .workspace {
     border-style: solid;
-    border-width: 5px;
+    border-width: 1px;
     border-color: rgba(0,128,0,0.9);
-    margin-left: 13vw;
-    width: 74vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
     height: 100vh;
+}
+header{
+    overflow: visible;
+    margin-right: 0vw;
+    margin-left: 0vw;
+    height: 13vh;
+}
+header a {
+    float: left;
+    text-align: center;
+}
+header a.name {
+    margin-left: 5px;
+    font-size: 10vh;
+    text-decoration: none;
+    font-style: italic;
+    color: green;
+
+}
+#header1 {
+    margin-bottom: 0%;
+    margin-top: 3vw;
+}
+.myimage {
+    margin-left: 0vw;
+    width: 10vw;
+    height: 87vh;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    border-collapse: collapse;
 }
