@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
 }
 .workspace {
-    border-style: solid;
+    /*border-style: solid;*/
     border-width: 1px;
     border-color: rgba(0,128,0,0.9);
     margin-left: 15vw;
@@ -22,19 +22,75 @@ header{
 header a {
     float: left;
     text-align: center;
-    color: green;
+    color: rgb(4, 197, 91);
     text-decoration: none;
     font-style: italic;
 }
 header a.name {
     font-size: 10vh; 
 }
+nav {
+    overflow: auto;
+    height: auto;
+    float: right;
+    clear: left;
+}
+.nav {
+    display: inline-block;
+    /*border-radius: 4px;*/
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2vw;
+    padding: 5px;
+    width: 10vw;
+    transition:all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.nav:hover {
+    /*background-color: rgb(2, 187, 85);*/
+    color: rgb(2, 187, 85);
+    border-bottom: solid;
+    border-color: rgb(2, 187, 85) ;
+}
+.nav span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.3s;
+  }
+.nav span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.3s;
+  }
+  
+.nav:hover span {
+    padding-right: 25px;
+    color: rgb(2, 187, 85);
+  }
+  
+.nav:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+img {
+    position: relative;
+    float: left;
+    margin-top: 6vh;
+    width: 18vw;
+    max-width: 100%;
+    height: 80vh;
+}
 .myimage {
     margin-left: 0vw;
+    max-width: 100%;
+    height: auto;
     width: 10vw;
-    height: 87vh;
-    border-style: solid;
-    border-width: 5px;
-    border-color: red;
-    border-collapse: collapse;
 }
