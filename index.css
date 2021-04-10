@@ -30,7 +30,7 @@ header a.name {
     font-size: 10vh; 
 }
 nav {
-    overflow: auto;
+    overflow: hidden;
     height: auto;
     float: right;
     clear: left;
