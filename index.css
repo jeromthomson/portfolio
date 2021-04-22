@@ -24,10 +24,11 @@ header a {
     text-align: center;
     color: rgb(4, 197, 91);
     text-decoration: none;
-    font-style: italic;
+    
 }
 header a.name {
     font-size: 10vh; 
+    font-style: italic;
 }
 nav {
     overflow: hidden;
@@ -94,14 +95,22 @@ img {
     position: relative;
     top: 10vh;
     left: 21vw;
-    border-style: solid;
-    border-color: blanchedalmonds;
+    /*border-style: solid;
+    border-color: blanchedalmonds;*/
 }
 .homebutton{
     position: absolute;
     display: block;
     width: 46.5vw;
     height: 75vh;
+    font-family: cursive;
+    font-size: 2.5vh;
+}
+.homebutton span{
+    float: right;
+    font-family: cursive;
+    font-size: 3vh;
+    color: rgb(4, 197, 91);
 }
 .aboutbutton{
     position: absolute;
@@ -114,4 +123,128 @@ img {
     display: none;
     width: 46.5vw;
     height: 75vh;
+}
+#education{
+    position: relative;
+    transition: 0.5s;
+    padding-top: 5vh;
+    top: 9vh;
+    left: 0vw;
+    width: 23vw;
+    height: 23.5vh;
+    background-image: url(education-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 9vh;
+}
+#education:hover{
+    position: relative;
+    cursor: pointer;
+    padding-top: 5vh;
+    transition: 0.5s;
+    top: 8.5vh;
+    left: -0.5vw;
+    width: 24vw;
+    height: 24.5vh;
+    background-image: url(education-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 9vh;
+}
+#skills{
+    position: absolute;
+    transition: 0.5s;
+    top: 35vh;
+    left: 0vw;
+    width: 23vw;
+    height: 24vh;
+    background-image: url(skills-bacground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 9vh;
+    color: rgba(10,50,100,0.9);
+    padding-top: 2vh;
+    padding-right: 5vw;
+}
+#skills:hover{
+    position: absolute;
+    transition: 0.5s;
+    cursor: pointer;
+    top: 34.5vh;
+    left: -0.5vw;
+    width: 24vw;
+    height: 25vh;
+    background-image: url(skills-bacground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 9vh;
+    padding-top: 5vh;
+}
+#Projects{
+    position: absolute;
+    transition: 0.5s;
+    top: 9vh;
+    left: 25vw;
+    width: 23vw;
+    height: 23.5vh;
+    background-image: url(projects-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 9vh;
+    color: rgba(10,50,100,1);
+    padding-top: 5vh;
+    padding-right: 2vw;
+    
+}
+#Projects:hover{
+    position: absolute;
+    cursor: pointer;
+    transition: 0.5s;
+    top: 8.5vh;
+    left: 24.5vw;
+    width: 24vw;
+    height: 24.5vh;
+    background-image: url(projects-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 9vh;
+    color: rgba(10,50,100,1);
+    padding-top: 5vh;
+    padding-right: 2vw;
+    
+}
+#Hobbies{
+    transition: 0.5s;
+    position: absolute;
+    top: 35vh;
+    left: 25vw;
+    width: 23vw;
+    height: 24vh;
+    background-image: url(education-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 9vh;
+    padding-top: 5vh;
+}
+#Hobbies:hover{
+    position: absolute;
+    transition: 0.5s;
+    cursor: pointer;
+    top: 34.5vh;
+    left: 24.5vw;
+    width: 24vw;
+    height: 25vh;
+    background-image: url(education-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 9vh;
+    padding-top: 5vh;
 }
