@@ -297,6 +297,7 @@ img {
         height: auto;
     }
     #education{
+        transition: none;
         position: relative;
         padding-top: 5vh;
         top: 6vh;
@@ -307,6 +308,7 @@ img {
         font-size: 5vh;
     }
     #education:hover{
+        transition: none;
         position: relative;
         padding-top: 5vh;
         top: 6vh;
@@ -318,6 +320,7 @@ img {
         
     }
     #skills{
+        transition: none;
         position: absolute;
         top: 22vh;
         left: 0vw;
@@ -329,6 +332,7 @@ img {
         padding-right: 5vw;
     }
     #skills:hover{
+        transition: none;
         position: absolute;
         top: 22vh;
         left: 0vw;
@@ -340,6 +344,7 @@ img {
         padding-right: 5vw;
     }
     #Projects{
+        transition: none;
         position: absolute;
         top: 38vh;
         left: 0vw;
@@ -352,6 +357,7 @@ img {
         
     }
     #Projects:hover{
+        transition: none;
         position: absolute;
         top: 38vh;
         left: 0vw;
@@ -363,6 +369,7 @@ img {
         padding-right: 2vw;
     }
     #Hobbies{
+        transition: none;
         position: relative;
         padding-top: 5vh;
         top: 39.5vh;
@@ -372,7 +379,8 @@ img {
         text-align: center;
         font-size: 5vh;
     }
-    #Hobbies{
+    #Hobbies:hover{
+        transition: none;
         position: relative;
         padding-top: 5vh;
         top: 39.5vh;
