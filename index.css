@@ -306,7 +306,29 @@ img {
         text-align: center;
         font-size: 5vh;
     }
+    #education:hover{
+        position: relative;
+        padding-top: 5vh;
+        top: 6vh;
+        left: 0vw;
+        width: 219%;
+        height: 14.5vh;
+        text-align: center;
+        font-size: 5vh;
+        
+    }
     #skills{
+        position: absolute;
+        top: 22vh;
+        left: 0vw;
+        width: 219%;
+        height: 14.5vh;
+        text-align: center;
+        font-size: 5vh;
+        padding-top: 2vh;
+        padding-right: 5vw;
+    }
+    #skills:hover{
         position: absolute;
         top: 22vh;
         left: 0vw;
@@ -328,6 +350,27 @@ img {
         padding-top: 5vh;
         padding-right: 2vw;
         
+    }
+    #Projects:hover{
+        position: absolute;
+        top: 38vh;
+        left: 0vw;
+        width: 219%;
+        height: 14.5vh;
+        text-align: center;
+        font-size: 5vh;
+        padding-top: 5vh;
+        padding-right: 2vw;
+    }
+    #Hobbies{
+        position: relative;
+        padding-top: 5vh;
+        top: 39.5vh;
+        left: 0vw;
+        width: 219%;
+        height: 14.5vh;
+        text-align: center;
+        font-size: 5vh;
     }
     #Hobbies{
         position: relative;
