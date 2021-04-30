@@ -5,10 +5,20 @@ body {
 * {
     box-sizing: border-box;
 }
+#icon{
+    position: absolute;
+    left: 12vw;
+    top: 25vh;
+    width: auto;
+    margin: 0%;
+    height: auto;
+    font-size: 30px;
+    color: rgb(4, 197, 91);
+}
+a {
+    color: rgb(4, 197, 91);  
+}
 .workspace {
-    /*border-style: solid;*/
-    border-width: 1px;
-    border-color: rgba(0,128,0,0.9);
     margin-left: 15vw;
     margin-right: 15vw;
     height: 100vh;
@@ -81,13 +91,38 @@ nav {
     right: 0;
   }
   
-img {
-    position: relative;
+#image {
+    position: absolute;
     float: left;
     margin-top: 6vh;
     width: 18vw;
     max-width: 100%;
     height: 80vh;
+    font-family: cursive;
+    font-size: 2vh;
+}
+#image span {
+    float: right;
+    font-family: cursive;
+    font-size: 3vh;
+    color: rgb(4, 197, 91);
+}
+#imagecontainer{
+    position:relative;
+    top : 0vh;
+    width: 18vw;
+    height: 15vw;
+}
+img {
+    position : relative;
+    border-style: solid;
+    border-color: rgb(4, 197, 91);
+    float: left;
+    top: 0vh;
+    width: 15vw;
+    height: 15vw;
+    left: 2vw;
+    border-radius: 50%;
 }
 #main{
     width: 47vw;
@@ -125,6 +160,7 @@ img {
     height: 75vh;
 }
 #education{
+    display: block;
     position: relative;
     transition: 0.5s;
     padding-top: 5vh;
@@ -248,6 +284,80 @@ img {
     font-size: 9vh;
     padding-top: 5vh;
 }
+#backicon {
+    display: none;
+    position: absolute;
+    left : 0.5vw;
+    font-size: 40px;
+    color: rgb(4, 197, 91);
+    cursor: pointer;
+}
+.workspace2{
+    display: none;
+    position: absolute;
+    top: 6vh;
+    left: 0.5vw;
+    width: 48vw;
+    height: 69vh;
+}
+.memorial {
+    transition: ease-in;
+    display: block;
+    position: absolute;
+    border-bottom: solid;
+    border-top: solid;
+    border-radius: 25px;
+    padding: 5px;
+    color: rgb(1, 255, 115);
+    /* border-color: rgba(4, 197, 91,1); */
+    top: 3vh;
+    border-color: cyan;
+    left: 3vw;
+    width: 15vw;
+    height: 60vh;
+}
+.projects {
+    transition: ease-in;
+    display: block;
+    position: absolute;
+    border-bottom: solid;
+    border-top: solid;
+    border-radius: 25px;
+    padding: 5px;
+    color: rgb(1, 255, 115);
+    border-color: cyan;
+    top: 3vh;
+    left: 3vw;
+    width: 15vw;
+    height: 60vh;
+}
+/* #educationcarasouel1{
+    display: block;
+    z-index: 2;
+    position: absolute;
+    opacity: 1;
+    top: 3vh;
+    left: 3vw;
+    width: 15vw;
+    height: 60vh;
+}
+#educationcarasouel2{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.5;
+    top: 3vh;
+    left: 8vw;
+    width: 15vw;
+    height: 60vh;
+} */
+#rightarrow {
+    position: absolute;
+    cursor: pointer;
+    top: 30vh;
+    left: 45vw;
+    color: rgb(4, 197, 91);
+}
 @media only screen and (max-width: 600px) {
     .workspace{
         margin-left: 0vw;
@@ -297,6 +407,7 @@ img {
         height: auto;
     }
     #education{
+        display: block;
         transition: none;
         position: relative;
         padding-top: 5vh;

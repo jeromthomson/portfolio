@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<div id= "icon">
+    <a href ="https://www.facebook.com/jerom.thomson.3" target = "_blank" ><i class="fa fa-facebook-square"></i></a><br>
+    <a href ="https://github.com/jeromthomson" target = "_blank" ><i class="fa fa-github"></i></a><br>
+    <a href ="mailto:jeromthomson04@gmail.com" target = "_blank" ><i class="fa fa-envelope-o"></i></a><br>
+    <a href ="https://www.linkedin.com/in/jerom-pulikottil" target = "_blank" ><i class="fa fa-linkedin"></i></a><br>
+</div>
 <div class="workspace">
     <header>
         <a href= "#default" class="name">Jerom Pulikottil</a>
@@ -17,16 +25,85 @@
         <button class="nav" onclick="aboutbutton()"><span>About </span></button>
         <button class="nav" onclick="contactbutton()"><span>Contact </span></button>
     </nav>
-    <img src="IMG_20200906_184956.jpg">
+    <div id = "image">
+        <!-- <img src="IMG_20200906_184956.jpg"> -->
+        <div id ="imagecontainer"><img src = "profilephoto3.jpg"></div>
+        <h1>"I am not going to be the next someone, I am going to be the first Me" <br><span>- Personal Mantra</span> </h1>
+    </div>
     <div id="main">
         <div class="homebutton">
             <h1>"I am not going to be the next someone, I am going to be the first Me" <br><span>- Personal Mantra</span> </h1>
         </div>
         <div class="aboutbutton">
-            <div id="education" onclick="homebutton()">Education</div>
-            <div id="skills" onclick="homebutton()">Skills</div>
-            <div id="Projects" onclick="homebutton()">Projects</div>
-            <div id="Hobbies" onclick="homebutton()">Hobbies</div>
+            <div id ="backicon" onclick="backicon()"> <span class="material-icons">
+                arrow_back
+            </span></div>
+            <div id="education" onclick="educationbutton()">Education</div>
+            <div class="workspace2">
+                <div id="rightarrow" onclick="erightarrow()">
+                    <span class="material-icons">
+                        navigate_next
+                    </span>
+                </div>
+                <div class = "memorial">
+                    <h1>Memorial University of Newfoundland</h1>
+                    <h2>Computer Engineering Class of 2024</h2>
+                    <h2>Academic Term 4</h2> 
+                </div>
+                <div class = "memorial">
+                    <h1>Digital Marketing</h1>
+                    <h2>Google Certificate</h2>
+                    <h2></h2> 
+                </div>
+                <div class = "memorial">
+                    <h1>Solidworks</h1>
+                    <h2>Skilled Knowledge of Solidworks and related softwares</h2>
+                    <h2></h2> 
+                </div>
+            </div>
+            <div id="skills" onclick="skillsbutton()">Skills</div>
+
+            <div id="Projects" onclick="Projectsbutton()">Projects</div>
+            <div class="workspace2">
+                <div id="rightarrow" onclick="prightarrow()" >
+                    <span class="material-icons">
+                        navigate_next
+                    </span>
+                </div>
+                <div class = "projects current-slide">
+                    <h1>Airline Reservation System</h1>
+                    <h2>A demo code where you can book flight tickets, made using C++</h2> 
+                    <h2 href="jeromthomson.github.io/Portfolio"> Visit </h2>
+                </div>
+                <div class = "projects">
+                    <h1>Morse code Translator</h1>
+                    <h2>A Morse code translator made using an Arduino, coded in Python</h2> 
+                    <h2 href="jeromthomson.github.io/Portfolio"> Visit </h2>
+                </div>
+                <div class = "projects">
+                    <h1>DC Motor Speed Control</h1>
+                    <h3>Controlling the Speed of a DC motor using PWM</h3>
+                    <h3>Coded in C, embeded onto a 8051 microcontroller</h3> 
+                    <h2 href="jeromthomson.github.io/Portfolio"> Visit </h2>
+                </div>
+                <div class = "projects">
+                    <h1>Portfolio Website</h1>
+                    <h2>Made from scratch using core concepts of Javascript, HTML and Css</h2> 
+                    <h2 href="jeromthomson.github.io/Portfolio"> Visit </h2>
+                </div>
+            </div>
+            <div id="Hobbies" onclick="Hobbiesbutton()">Hobbies</div>
+                
+                <!-- <div id = "educationcarasouel1">
+                    <h1>
+                        Memorial University<br>
+                        Computer Engineering<br>
+                        Term 4
+                    </h1>
+                </div>
+                <div id = "educationcarasouel2">
+                    <h1>Digital Marketing certification</h1>
+                </div> -->
         </div>
         <div class="contactbutton">
             <h1>Hello thank you for clicking the contact button this where all my contact information will be added.</h1>
